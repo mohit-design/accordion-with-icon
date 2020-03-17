@@ -1,8 +1,8 @@
 /*------- Font Family Starts -------*/
 
-@font-face { font-family: "Cairo-Regular"; src: url("../font/Cairo-Regular.ttf"); }
-@font-face { font-family: "Cairo-SemiBold"; src: url("../font/Cairo-SemiBold.ttf"); }
-@font-face { font-family: "Lobster-Regular"; src: url("../font/Lobster-Regular.ttf"); }
+@font-face { font-family: "Cairo-Regular"; src: url("../fonts/Cairo-Regular.ttf"); }
+@font-face { font-family: "Cairo-SemiBold"; src: url("../fonts/Cairo-SemiBold.ttf"); }
+@font-face { font-family: "Lobster-Regular"; src: url("../fonts/Lobster-Regular.ttf"); }
 
 /*------- Font Family Ends -------*/
 
