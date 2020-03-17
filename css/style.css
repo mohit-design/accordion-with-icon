@@ -1,0 +1,34 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Cairo-Regular"; src: url("../font/Cairo-Regular.ttf"); }
+@font-face { font-family: "Cairo-SemiBold"; src: url("../font/Cairo-SemiBold.ttf"); }
+@font-face { font-family: "Lobster-Regular"; src: url("../font/Lobster-Regular.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 10px; letter-spacing: 1px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Accordian Section Starts -------*/
+
+.bg-accordian { padding: 30px 15px; }
+.section-heading > h2 { color: #000; font: 3.6rem/1.2 "Lobster-Regular"; margin-bottom: 30px; text-align: center; }
+
+	/*------- Accordian Menu CSS Starts -------*/
+
+.accordion-default > .accordion-heading {	align-items: center; background-color: #000;	color: #fff; cursor: pointer; display: flex; font: 2rem/1.2 "Cairo-SemiBold"; margin-top: 15px;	padding: 15px; position: relative; }
+.accordion-default > .accordion-heading:first-child { margin-top: 0; }
+.accordion-default > .accordion-heading:after {	content: "\f067";	font-family: "Font Awesome 5 Free";	font-weight: 900;	position: absolute;	right: 15px; top: 15px; }
+.accordion-default > .accordion-heading.active:after { content: "\f068"; }
+.accordion-default > .accordion-heading + .accordion-body { background-color: #f2f2f2; display: none; padding: 15px; }
+.technology-listing { padding-left: 20px; }
+.technology-listing > li { font: 1.6rem/1.2 "Cairo-Regular"; margin-bottom: 5px; }
+.technology-listing > li:last-child { margin-bottom: 0; }
+
+	/*------- Accordian Menu CSS Ends -------*/
+
+/*------- Accordian Section Ends -------*/
